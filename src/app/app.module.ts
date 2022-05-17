@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { CatalogComponent } from './catalog/catalog.component';
 import { MainWindowComponent } from './main-window/main-window.component';
 import { ServicesComponent } from './services/services.component';
+import { AboutComponent } from './about/about.component';
+import { BasketComponent } from './basket/basket.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CatalogComponent,
     MainWindowComponent,
-    ServicesComponent
+    ServicesComponent,
+    AboutComponent,
+    BasketComponent
   ],
   imports: [
     BrowserModule,
