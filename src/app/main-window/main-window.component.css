@@ -1,24 +1,23 @@
 @media screen and (max-width: 1024px) {
-    .cover img {
-		height: 80%;
-	}
-    .cta {
-		padding: 10px 0px 0px 0px;
-	}
 	.presentation {
 		flex-direction: column;
 	}
     .introduction {
-        margin-top: 5vh;
-        text-align: center;
-    }
+		margin-top: 5vh;
+		text-align: center;
+	}
     .intro-text h1 {
 		font-size: 30px;
 	}
 	.intro-text p {
 		font-size: 18px;
 	}
-
+    .cta {
+		padding: 0px 0px 0px 0px;
+	}
+    .cover img {
+        height: 80%;
+    }
     .small-circle,
 	.medium-circle,
 	.big-circle {
@@ -61,14 +60,6 @@
 	animation: drop 1.5s ease;
 }
 
-.presentation {
-	display: flex;
-	width: 90%;
-	margin: auto;
-	min-height: 80vh;
-	align-items: center;
-}
-
 .cta-select {
 	border: 2px solid #c36cbb;
 	background: transparent;
@@ -87,15 +78,11 @@
 	font-size: 16px;
 	border: none;
 	color: white;
-	margin: 30px 0px 0px 30px;
+	margin: 0px 0px 0px 30px;
 }
 
 .cta {
-	padding: 50px 0px 0px 0px;
-}
-
-.introduction {
-	flex: 1;
+	padding: 10px 0px 0px 0px;
 }
 
 .intro-text h1 {
@@ -109,4 +96,17 @@
 	margin-top: 5px;
 	font-size: 22px;
 	color: #585772;
+}
+.presentation {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	min-height: 80vh;
+	align-items: center;
+}
+.introduction {
+	flex: 1;
+}
+body {
+	font-family: 'Poppins', sans-serif;
 }

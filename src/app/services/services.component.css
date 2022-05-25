@@ -13,7 +13,7 @@
 		font-size: 18px;
 	}
     .cta {
-		padding: 10px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
 	}
     .cover img {
         height: 80%;
@@ -75,10 +75,10 @@
 	font-size: 16px;
 	border: none;
 	color: white;
-	margin: 30px 0px 0px 30px;
+	margin: 0px 0px 0px 30px;
 }
 .cta {
-	padding: 50px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
 }
 .intro-text h1 {
 	font-size: 44px;
@@ -101,4 +101,7 @@
 }
 .introduction {
 	flex: 1;
+}
+body {
+	font-family: 'Poppins', sans-serif;
 }
