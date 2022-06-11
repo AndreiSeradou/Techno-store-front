@@ -1,0 +1,22 @@
+export class Laptop {
+	id: number | undefined;
+	name: string | undefined;
+	imageUrl: string | undefined;
+	model: string | undefined;
+	description: string | undefined;
+	count: number | undefined;
+	price: number | undefined;
+	operatingSystem: string | undefined;
+	processor: string | undefined;
+	videoCard: string | undefined;
+	RAM: string | undefined;
+	display: string | undefined;
+	dataStorage: string | undefined;
+	ports: string | undefined;
+	camera: string | undefined;
+	audio: string | undefined;
+	connections: string | undefined;
+	battery: string | undefined;
+	powerSupplyUnit: string | undefined;
+	weight: string | undefined;
+}

@@ -4,7 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { BasketComponent } from './basket/basket.component';
 import { CatalogComponent } from './catalog/catalog.component';
 import { MainWindowComponent } from './main-window/main-window.component';
-import { ServicesComponent } from './services/services.component';
+import { ServicesComponent } from './store-services/services.component';
 
 const routes: Routes = [
   {path:"catalog",component:CatalogComponent},
