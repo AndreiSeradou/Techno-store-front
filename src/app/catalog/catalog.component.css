@@ -131,7 +131,7 @@ nav {
 }
 
 .big-circle {
-	position: absolute;
+	position: fixed;
 	top: 0px;
 	right: 0px;
 	z-index: -1;
@@ -140,7 +140,7 @@ nav {
 }
 
 .medium-circle {
-	position: absolute;
+	position: fixed;
 	top: 30%;
 	right: 30%;
 	z-index: -1;
@@ -149,7 +149,7 @@ nav {
 }
 
 .small-circle {
-	position: absolute;
+	position: fixed;
 	bottom: 0%;
 	left: 20%;
 	z-index: -1;
